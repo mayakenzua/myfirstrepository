@@ -9,11 +9,14 @@
    header {
         /* The background of the heading element will now be black. */
         background-color: #333333;
+        background-position: center;
          /* Align the text to the center of its enclosing element (e.g. div). */
         text-align: center;
         /* This will color the heading font white. */
         font: Georgia;
         font-size: 50px; color: #eee;
+        margin: 0;
+        padding: 0;
      }  
 
    h1 {
@@ -23,6 +26,7 @@
 
         /* Underline the text. 
         text-decoration: underline; */
+        font: "Times New Roman";
         display: inline-flex;
         margin-top: 70px;
         padding: 0px;
@@ -36,6 +40,7 @@
 
         /* Underline the text. 
         text-decoration: underline; */
+        font: "Times New Roman";
         font-size: 24px;
         margin: 0 auto;
       }
@@ -44,6 +49,8 @@
         margin: 7px;
         padding: 0 20px;
         width: 400px;
+        font: Serif;
+        font-size: 12px; color: #333333;
       }
 
     .main-bio {
@@ -73,11 +80,13 @@
         width: 500px;
         padding: 0px 50px;
         align-items: flex-end;
+        display: inline-flex;
+        position: relative;
       }
 
     .text-box {
         margin: 10px;
-        float: inlin-start;
+        float: inline-start;
       }
 
       .bigger_text{
