@@ -1,0 +1,106 @@
+
+    body {
+        background-color: #efeee7;
+        font: Georgia,"Times New Roman",Times,serif; color: #333333;
+        margin: 0px;
+        padding: 0px;
+     }
+
+   header {
+        /* The background of the heading element will now be black. */
+        background-color: #333333;
+         /* Align the text to the center of its enclosing element (e.g. div). */
+        text-align: center;
+        /* This will color the heading font white. */
+        font: Georgia;
+        font-size: 50px; color: #eee;
+     }  
+
+   h1 {
+        /* Put a 15-pixel margin at the bottom of the heading. 
+        margin-bottom: 15px; */
+        /* Change the size of your font to 60 pixels high. */
+
+        /* Underline the text. 
+        text-decoration: underline; */
+        display: inline-flex;
+        margin-top: 70px;
+        padding: 0px;
+        align-items: left;
+      }
+     
+   h2 {
+        /* Put a 15-pixel margin at the bottom of the heading. 
+        margin-bottom: 15px; */
+        /* Change the size of your font to 60 pixels high. */
+
+        /* Underline the text. 
+        text-decoration: underline; */
+        font-size: 24px;
+        margin: 0 auto;
+      }
+
+    li {
+        margin: 7px;
+        padding: 0 20px;
+        width: 400px;
+      }
+
+    .main-bio {
+        width: 500px;
+        padding: 0px 200px;
+      }
+    
+    .container {
+        margin: 0px;
+        width: 200%;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 30px;
+      }
+      .self-portrait{
+        width: 200px;
+        height: 280px;
+        background-image: url(../images/me.jpg);
+        background-size: contain;
+        background-position: left;
+        float: left;
+      }
+    
+    .contact-info {
+        margin: 50px;
+        width: 500px;
+        padding: 0px 50px;
+        align-items: flex-end;
+      }
+
+    .text-box {
+        margin: 10px;
+        float: inlin-start;
+      }
+
+      .bigger_text{
+        font-size:xx-large
+        }
+        #centered_text {
+        text-align: center;
+        }
+        .bolder_text {
+        font-weight: bolder;
+        }
+        #different_font {
+        font-family: Verdana, sans-serif;
+        }
+        .orange {
+        color: orange;
+        }
+        
+        .styledFont {
+        font-family: cursive, script, serif;
+        }
+        #styledImage {
+        border-style: dotted dashed solid double;
+        border-width: 10px 12px 15px 25px;
+        border-color: red green blue orange;
+        }
