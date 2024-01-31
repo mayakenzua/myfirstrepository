@@ -23,6 +23,7 @@
 
         /* Underline the text. 
         text-decoration: underline; */
+        font: "Times New Roman";
         display: inline-flex;
         margin-top: 70px;
         padding: 0px;
@@ -36,6 +37,7 @@
 
         /* Underline the text. 
         text-decoration: underline; */
+        font: "Times New Roman";
         font-size: 24px;
         margin: 0 auto;
       }
@@ -44,6 +46,8 @@
         margin: 7px;
         padding: 0 20px;
         width: 400px;
+        font: Serif;
+        font-size: 10px; color: #333333;
       }
 
     .main-bio {
