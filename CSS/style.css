@@ -11,6 +11,7 @@
         background-color: #333333;
          /* Align the text to the center of its enclosing element (e.g. div). */
         text-align: center;
+        
         /* This will color the heading font white. */
         font: Georgia;
         font-size: 50px; color: #eee;
@@ -47,7 +48,7 @@
         padding: 0 20px;
         width: 400px;
         font: Serif;
-        font-size: 10px; color: #333333;
+        font-size: 12px; color: #333333;
       }
 
     .main-bio {
@@ -81,7 +82,7 @@
 
     .text-box {
         margin: 10px;
-        float: inlin-start;
+        float: inline-start;
       }
 
       .bigger_text{
