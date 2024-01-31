@@ -78,6 +78,7 @@
         width: 500px;
         padding: 0px 50px;
         align-items: flex-end;
+        display: inline-flex;
       }
 
     .text-box {
